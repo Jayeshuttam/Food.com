@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+.galleryquote h1 {
+    background-color: #E5E1CA;
+    border: 2px solid lightcoral;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    color: #1F222B;
+    position: sticky;
+    text-align: center;
+}
+
+.gallery {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 5px 5px 5px 5px;
+}
+
+.gallery img {
+    margin: 8px;
+    vertical-align: middle;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.gallery img:hover {
+    box-shadow: 0 0 12px 8px #FF5F02;
+}
+
+.gcolumn {
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 35%;
+    padding: 0 4px;
+}

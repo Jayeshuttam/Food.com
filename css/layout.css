@@ -1,0 +1,184 @@
+html {
+    /* background-color: #6264A7; */
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    background-color: #31353E;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 0.4vw solid #FF5F02;
+}
+
+div.row img {
+    width: 10%;
+    padding: 1.5%;
+    margin: auto;
+    border-radius: 40%;
+}
+
+div.row span {
+    font-size: 2.5vw;
+    top: 6%;
+    width: 50%;
+    margin: auto;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.nav {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    width: 35%;
+    margin: auto;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    float: right;
+}
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+
+.nav a {
+    font-size: 1.3vw;
+    display: inline-block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    transition: transform .1s;
+}
+
+.nav a:hover {
+    background-color: #FF5F02;
+    color: white;
+    border-radius: 4%;
+    transform: scale(1.2);
+}
+
+.footer {
+    background-color: #31353E;
+    color: white;
+    width: 100%;
+    height: 24vw;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.footerlogo {
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+
+div.footerlogo img {
+    width: 12vw;
+    padding: 5%;
+    border-radius: 50%;
+    display: inline;
+    margin: auto;
+}
+
+div.footerlogo span {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.3vw;
+    display: inline;
+    text-align: center;
+    text-decoration: dotted;
+    display: inline;
+    padding-left: 2%;
+}
+
+div.footerlogo span:last-child {
+    border-top: 0.1vw solid #FF5F02;
+    display: block;
+}
+
+div.footer1 {
+    display: inline-block;
+    background-color: #1F222B;
+    position: relative;
+    right: 0px;
+    top: 1vw;
+    width: 70vw;
+    margin-left: 5vw;
+}
+
+div.footer1::after {
+    content: "";
+    position: absolute;
+    transform: rotate(2deg);
+}
+
+div.footer1 div {
+    display: inline;
+    margin-top: 1vw;
+    margin-left: 9vw;
+    position: relative;
+    float: left;
+    top: -8px;
+}
+
+div.footer1 a:hover {
+    color: #FF5F02;
+}
+
+div#copyright {
+    border-top: 0.1vw solid #FF5F02;
+    background-color: #31353E;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.tilt {
+    height: 7vw;
+    position: relative;
+    transform: rotate(3deg);
+    width: 100%;
+    top: 5vw;
+    left: -3px;
+    /* border: 2px dashed white; */
+    background: #31353E;
+}

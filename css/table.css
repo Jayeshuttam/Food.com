@@ -1,0 +1,26 @@
+                     body {
+                         font-family: 'Poppins', sans-serif;
+                         ;
+                     }
+                     
+                     .table-style {
+                         border-collapse: collapse;
+                         width: 99vw;
+                         height: 50vw;
+                     }
+                     
+                     .table-style img {
+                         height: 20vw;
+                     }
+                     
+                     td,
+                     th {
+                         border: 1px solid #dddddd;
+                         text-align: left;
+                         padding: 8px;
+                         font-size: 1.5vw;
+                     }
+                     
+                     tr:nth-child(even) {
+                         background-color: #ffa673;
+                     }

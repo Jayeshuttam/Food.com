@@ -1,0 +1,81 @@
+main {}
+
+.containers {
+    height: 40vw;
+    width: 55vw;
+    margin: auto;
+    margin-top: 2vw;
+    display: block;
+    border: 1px solid #1F222B;
+    background-color: #31353E;
+    color: white;
+    border-radius: 5%;
+    border-bottom: 3px solid #FF5F02;
+    border-top: 3px solid #FF5F02;
+}
+
+.wrapper {
+    margin: 5%;
+}
+
+.img_container {
+    text-align: center;
+    display: inline;
+    width: 30vw;
+    margin-right: 2vw;
+    float: left;
+}
+
+p {}
+
+div.img_container img {
+    width: 30vw;
+    margin: auto;
+    height: 17vw;
+    border: 2px solid white;
+    border-radius: 3%;
+}
+
+div.containers div:nth-child(2) {
+    margin: 2vw 1vw;
+    width: 45vw;
+    height: 12vw;
+    margin-bottom: 2vw;
+}
+
+span {
+    display: block;
+    margin-top: 1px;
+    margin-bottom: 0.8vw;
+    text-align: right;
+}
+
+.span-style {
+    display: block;
+    width: 30%;
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    float: right;
+}
+
+span.span-style:last-child {
+    font-size: 3vw;
+    margin-top: 3vw;
+}
+
+.order-button {
+    background-color: #FF5F02;
+    border-radius: 5vw;
+    font-size: 1.5vw;
+    padding: 10px;
+    border: 1% solid #1F222B;
+    float: right;
+}
+
+.compare-button {
+    margin-top: -12%;
+}
+
+div.containers div:nth-child(3) {
+    margin-top: 8vw;
+}
