@@ -2,6 +2,11 @@
  
 Welcome to Food Website ,navigate through the beautiful Material design.
 
+Basic Technologies :
+HTML/CSS
+
+Note:You can also download the Zip and start the project right away.
+
 Here are some preview Images:
 
 ![Gallery](https://user-images.githubusercontent.com/38659267/115029938-86de5c00-9e94-11eb-808a-4c6a0c939430.png)
